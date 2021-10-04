@@ -1,4 +1,5 @@
 import addClass from "./Components/darClase.js";
+import moviesAddValidation from "./Components/moviesAddValidation.js";
 
 
 ((d) => {
@@ -14,6 +15,9 @@ import addClass from "./Components/darClase.js";
     addClass($h1, "titulo")
     addClass($article, "fondoTransparente")
     addClass($section, "fondoCRUD")
+
+    // Validacion
+    moviesAddValidation()
   })
   
 })(document);
